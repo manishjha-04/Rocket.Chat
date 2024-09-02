@@ -4,7 +4,7 @@ import type { IRoom } from './IRoom';
 import type { IUser } from './IUser';
 import type { AtLeast } from './utils';
 
-export enum VideoConferenceStatus {
+export const enum VideoConferenceStatus {
 	CALLING = 0,
 	STARTED = 1,
 	EXPIRED = 2,
